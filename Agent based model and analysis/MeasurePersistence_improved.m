@@ -1206,9 +1206,9 @@ if simulate_search_efficiency == 1
                     
                     %generate a point on the back half of spherical cell
                     
-                    ele = pi*rand() + startpositions(startat)*pi/2;
-                    az = asin(2*rand()-1);
-                    [Xc,Yc,Zc] = sph2cart(ele,az,cellradius);
+                    az = pi*rand() + startpositions(startat)*pi/2;
+                    ele = asin(2*rand()-1);
+                    [Xc,Yc,Zc] = sph2cart(az,ele,cellradius);
                     
                     storedpath(1,:) = [ Xc,Yc,Zc ];
                     
@@ -1463,9 +1463,9 @@ if simulate_search_efficiency_gamma_dist == 1
                     
                     %generate a point on the back half of spherical cell
                     
-                    ele = pi*rand() + startpositions(startat)*pi/2;
-                    az = asin(2*rand()-1);
-                    [Xc,Yc,Zc] = sph2cart(ele,az,cellradius);
+                    az = pi*rand() + startpositions(startat)*pi/2;
+                    ele = asin(2*rand()-1);
+                    [Xc,Yc,Zc] = sph2cart(az,ele,cellradius);
                     
                     storedpath(1,:) = [ Xc,Yc,Zc ];
                     
