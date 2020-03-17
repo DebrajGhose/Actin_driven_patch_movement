@@ -2,7 +2,6 @@
 % Debraj Ghose
 % Maria Minakova
 % Natasha Savage
-% Natash Layton
 % Anita Layton
 % Daniel Lew
 
